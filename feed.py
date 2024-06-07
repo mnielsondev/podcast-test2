@@ -17,7 +17,7 @@ xml_tree.SubElement(chanel_element, 'format').text = yaml_data['format']
 xml_tree.SubElement(chanel_element, 'subtitle').text = yaml_data['subtitle']
 xml_tree.SubElement(chanel_element, 'itunes:author').text = yaml_data['author']
 xml_tree.SubElement(chanel_element, 'description').text = yaml_data['description']
-xml_tree.SubElement(chanel_element, 'ituntes:image', {'href': link_prefix + yaml_data['image']})
+xml_tree.SubElement(chanel_element, 'itunes:image', {'href': link_prefix + yaml_data['image']})
 xml_tree.SubElement(chanel_element, 'language').text = yaml_data['language']
 xml_tree.SubElement(chanel_element, 'link').text = link_prefix
 
